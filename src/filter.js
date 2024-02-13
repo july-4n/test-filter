@@ -1,8 +1,8 @@
 const filter = (arr, key, val) => {
-  const a = arr.filter(el => {
+  const newArr = arr.filter(el => {
     return el[key] === val;
   });
-  return a;
+  return newArr;
 };
 
 export default filter;
